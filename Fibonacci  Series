@@ -1,0 +1,22 @@
+# write a code for fibonacci series
+# First we make a function and name the function name Fab
+# and than assian parameter inside function 
+# than we use a conditional format for getting the result we want
+def fab(n):
+    if n < 0 :
+        print("Given number is less than zero")
+    elif n == 0 :
+        return 0
+    elif n == 1 :
+        return 1 
+    else:
+        return fab(n-1) + fab (n-2)
+        
+fab(5)
+fab(6)
+fab(7)
+
+# Result 
+""" 5
+8
+13 """
