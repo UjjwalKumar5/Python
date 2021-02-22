@@ -1,0 +1,31 @@
+# Make a dictionary
+Numbers = {1:"One",2:"Two",3:"Three",4:"Four",5:"Five",}
+# access items
+Numbers[3] # shows the value Three
+Numbers[2] # shows the value Two
+# add items
+Numbers[6] = "Six"
+Numbers.update({7:"Seven"})
+# Change the value
+Numbers[3] = "tHREE"
+Numbers.update({2:"tWO"})
+# Remove the items
+Numbers.pop(3) 
+Numbers.popitem() # remove the last inserted item
+del Numbers[3]
+del Numbers # Delete whole dictionary
+Numbers.clear() # Clear all the values inside the dictionary or empty the dictionary
+# Loop 
+for x in Numbers:
+    print(x)    # print all the key
+    print(Numbers[x])    # print all the values inside the dictionary
+    
+for x in Numbers.items:
+    print(x) # Print the Key Value pair inside the dictionary
+
+for x in Numbers.keys():
+    print(x)    # print all the keys inside the dictionary
+    
+for x in Numbers.values():
+    print(x)    # print all the values inside the dictionary
+    
