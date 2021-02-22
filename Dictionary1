@@ -1,0 +1,9 @@
+# Copy the Dictionary
+Numbers = {1:"One", 2:"Two", 3:"Three", 4:"Four", 5:"Five",}
+Numbers1 = Numbers
+# we cannot copy a Dictionary like this because if anything change in Numbers will automatically shows in Numbers1
+# We have two methods for copy a Dictionary
+
+Numbers2 = Numbers.copy() # one method
+
+Numbers3 = dict(Numbers)  # Second method
